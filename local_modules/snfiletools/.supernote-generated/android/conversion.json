@@ -1,0 +1,1043 @@
+{
+  "bindings": [
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:bitmapMatches(std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "patternPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "boolean",
+        "kind": "scalar",
+        "scalar": "bool"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "bool"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:copyPageTotalPath(std::string,std::string,std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "sourcePath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "sourcePageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:getSize(std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "int64 bigint",
+        "kind": "scalar",
+        "scalar": "int64"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "int64"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:greet(std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:restoreTestNote(std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "void",
+        "kind": "void"
+      },
+      "result_type": {
+        "kind": "void"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:setJournalDirectory(std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "void",
+        "kind": "void"
+      },
+      "result_type": {
+        "kind": "void"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testBitmapReplace(std::string,std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "patternPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testBitmapUnchanged(std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "referencePath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "boolean",
+        "kind": "scalar",
+        "scalar": "bool"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "bool"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testMetadataEditAndRestore(std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testReopenSnapshot(std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "snapshotPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "void",
+        "kind": "void"
+      },
+      "result_type": {
+        "kind": "void"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathCopy(std::string,std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "sourcePath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathEdit(std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathPaste(std::string,std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "sourcePath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "backupPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathUnchanged(std::string,std::string,std::string)",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "referencePath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "pageKey",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "boolean",
+        "kind": "scalar",
+        "scalar": "bool"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "bool"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.ExportBitmap#encodeExportedBitmap(Ljava/lang/String;Ljava/lang/String;IILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "pngPath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "rlePath",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "width",
+          "node": {
+            "expected": "int32 number",
+            "kind": "scalar",
+            "scalar": "int32"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "int32"
+          }
+        },
+        {
+          "name": "height",
+          "node": {
+            "expected": "int32 number",
+            "kind": "scalar",
+            "scalar": "int32"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "int32"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.FeatureApiKt#greetFromJvm(Ljava/lang/String;)Ljava/lang/String;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.NoteRefresh#clearNoteFileCache(Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "path",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "page",
+          "node": {
+            "expected": "int32 number",
+            "kind": "scalar",
+            "scalar": "int32"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "int32"
+          }
+        }
+      ],
+      "result": {
+        "expected": "boolean",
+        "kind": "scalar",
+        "scalar": "bool"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "bool"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.NoteRefresh#requestNoteRedraw(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.NoteRefresh#waitForNoteRefresh(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "milliseconds",
+          "node": {
+            "expected": "int32 number",
+            "kind": "scalar",
+            "scalar": "int32"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "int32"
+          }
+        }
+      ],
+      "result": {
+        "expected": "void",
+        "kind": "void"
+      },
+      "result_type": {
+        "kind": "void"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.TestStateKt#getTotalPathTestState(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "pluginDirectory",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "string",
+        "kind": "scalar",
+        "scalar": "string"
+      },
+      "result_type": {
+        "kind": "scalar",
+        "name": "string"
+      }
+    },
+    {
+      "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.TestStateKt#setTotalPathTestState(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+      "limits": {
+        "max_array_length": 65536,
+        "max_byte_buffer_bytes": 33554432,
+        "max_depth": 32,
+        "max_string_bytes": 8388608,
+        "max_temporary_bytes": 67108864,
+        "max_visited_nodes": 262144
+      },
+      "parameters": [
+        {
+          "name": "pluginDirectory",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        },
+        {
+          "name": "state",
+          "node": {
+            "expected": "string",
+            "kind": "scalar",
+            "scalar": "string"
+          },
+          "semantic_type": {
+            "kind": "scalar",
+            "name": "string"
+          }
+        }
+      ],
+      "result": {
+        "expected": "void",
+        "kind": "void"
+      },
+      "result_type": {
+        "kind": "void"
+      }
+    }
+  ],
+  "constructors": [],
+  "fields": [],
+  "kind": "supernote_module_conversion_plan",
+  "limits": {
+    "max_array_length": 65536,
+    "max_byte_buffer_bytes": 33554432,
+    "max_depth": 32,
+    "max_string_bytes": 8388608,
+    "max_temporary_bytes": 67108864,
+    "max_visited_nodes": 262144
+  },
+  "schema_version": "1.0"
+}

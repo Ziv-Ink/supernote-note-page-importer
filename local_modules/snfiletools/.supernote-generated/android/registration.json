@@ -1,0 +1,44 @@
+{
+  "androidNamespace": "com.ziv.snfiletools",
+  "bindingHeaders": [
+    ".supernote-generated/android/internal.hpp",
+    ".supernote-generated/android/package_registration.hpp"
+  ],
+  "bindingSources": [
+    ".supernote-generated/android/feature.cpp",
+    ".supernote-generated/android/internal.cpp",
+    ".supernote-generated/android/package_registration.cpp",
+    ".supernote-generated/android/jvm_feature.cpp"
+  ],
+  "cmake": ".supernote-generated/android/CMakeLists.txt",
+  "cmakeTarget": "supernote_feature_7e680f69f87879eb",
+  "conversion": ".supernote-generated/android/conversion.json",
+  "featureId": "supernote:feature:7e680f69f87879eb",
+  "installers": {
+    "jvm": {
+      "source": ".supernote-generated/android/package_registration.cpp",
+      "symbol": "supernote_package_install_jvm_7e680f69f87879eb"
+    },
+    "native": {
+      "source": ".supernote-generated/android/package_registration.cpp",
+      "symbol": "supernote_package_install_native_7e680f69f87879eb"
+    }
+  },
+  "jvmRegistrationSources": [
+    ".supernote-generated/android/jvm/JvmRegistration.java",
+    ".supernote-generated/android/jvm/KspAdapters.kt"
+  ],
+  "jvmSourceDirs": [
+    "android/src/main/java"
+  ],
+  "kind": "supernote_module_registration",
+  "nativeAbi": "supernote-jsi-v1",
+  "nativeSourceDirs": [
+    "android/src/main/cpp"
+  ],
+  "packageName": "snfiletools",
+  "protocol": "2.0",
+  "publicName": "Snfiletools",
+  "schemaVersion": "2.0",
+  "semantic": ".supernote-generated/android/semantic.json"
+}

@@ -1,0 +1,18 @@
+// The generator's standalone Kotlin analysis needs Android types for Context
+// injection. Android's normal module build already provides these types.
+allprojects {
+    afterEvaluate { p ->
+        if (p.name == 'subject') {
+            def pluginRoot = p.rootProject.projectDir.parentFile.parentFile.parentFile.parentFile
+            def configFile = new File(pluginRoot, 'devconfig.json')
+            def config = configFile.isFile() ? new groovy.json.JsonSlurper().parse(configFile) : [:]
+            def sdkPath = System.getenv('ANDROID_HOME') ?: System.getenv('ANDROID_SDK_ROOT') ?: config.androidSdk
+            if (!sdkPath) throw new GradleException('Set ANDROID_HOME or androidSdk in devconfig.json')
+            def platform = new File(sdkPath, 'platforms/android-35/android.jar')
+            if (!platform.isFile()) {
+                throw new GradleException("Android analysis platform not found: ${platform}")
+            }
+            p.dependencies.add('compileOnly', p.files(platform))
+        }
+    }
+}

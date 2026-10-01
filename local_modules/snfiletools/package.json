@@ -1,0 +1,21 @@
+{
+  "name": "snfiletools",
+  "version": "0.1.0",
+  "main": ".supernote-generated/index.js",
+  "types": ".supernote-generated/index.d.ts",
+  "files": [
+    "android/src/main",
+    ".supernote-generated",
+    ".supernote-module.json",
+    "SNfiletools",
+    "tests/device_edit.cpp",
+    "tests/fixtures/bitmap-test.rle",
+    "CMakeLists.txt"
+  ],
+  "supernoteNativeModule": {
+    "kind": "supernote_module_distribution",
+    "manifest": ".supernote-generated/package-manifest.json",
+    "protocol": "2.0",
+    "schemaVersion": "2.0"
+  }
+}

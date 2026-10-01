@@ -1,0 +1,18 @@
+{
+  "android_namespace": "com.ziv.snfiletools",
+  "description": "",
+  "feature_id": "supernote:feature:7e680f69f87879eb",
+  "implementation_roots": {
+    "jvm": "android/src/main/java",
+    "native": "android/src/main/cpp"
+  },
+  "kind": "supernote_module_feature",
+  "npm_name": "snfiletools",
+  "package_version": "0.1.0",
+  "public_name": "Snfiletools",
+  "schema_version": "1.0",
+  "starter_files": [
+    "android/src/main/cpp/feature.cpp",
+    "android/src/main/java/com/ziv/snfiletools/FeatureApi.kt"
+  ]
+}

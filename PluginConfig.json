@@ -1,0 +1,11 @@
+{
+  "name": "file_test_2",
+  "desc": "",
+  "iconPath": "",
+  "versionName": "0.0.1",
+  "versionCode": "1",
+  "pluginID": "sx3bufyz0b9fua33",
+  "pluginKey": "file_test_2",
+  "uses-permissions": ["plugin.permission.FILE:READ", "plugin.permission.FILE:WRITE"],
+  "jsMainPath": "index"
+}

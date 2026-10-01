@@ -1,0 +1,407 @@
+{
+  "artifacts": [
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "cmake-integration",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/CMakeLists.txt",
+      "sha256": "c352f87b7bbd4956c513ec560c6aaafac651574ee98e5adfcc3cc4f0fa7320ff"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "gradle-integration",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/analysis/settings.gradle",
+      "sha256": "a996374d791421e799dadc4a2554ef72d749e8c199cb2fd57ca6cd5ff95068d1"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "gradle-integration",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/analysis/subject/build.gradle",
+      "sha256": "95a6904f606f9d7bb7408448f37318b907cbfa9ac088c136c48711e4182a57ed"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "gradle-integration",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/build.gradle",
+      "sha256": "ec0ca18ee606dec26e46f058dddf25979a1f37d6ec552609221514479325d581"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/src/main/java/supernote/generated/annotations/SupernoteConstructor.java",
+      "sha256": "878c72dcffecd74a0fef85f3fdb7b80f84896fd995faecfb820f12f5db7174f3"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/src/main/java/supernote/generated/annotations/SupernotePluginAsync.java",
+      "sha256": "d3b52b1d2b56df02296f70f9948733e9bb7048c5fe6d3f448284548bc36297d0"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/src/main/java/supernote/generated/annotations/SupernotePluginExport.java",
+      "sha256": "fa40d18a4eeed5c21d3f5e7f0c5dede715a5c354049229c8564bcaf683e395a5"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/src/main/java/supernote/generated/annotations/SupernotePluginInternal.java",
+      "sha256": "61332fa22c0aafe0b337d44bb61b80b2203f31a7f392cc60b0524bef8bc90c62"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/src/main/java/supernote/generated/annotations/SupernotePluginObject.java",
+      "sha256": "cf2e291cc2c00892378b2b3620424aa834f1faa4c7984bf0598cbf4786e7594c"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/annotations/src/main/java/supernote/generated/annotations/SupernotePluginValue.java",
+      "sha256": "c0e5addcf498c7f1a790b45d36f005dd9a18977f5e5b112e358c5f3623c90496"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "gradle-integration",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/build.gradle",
+      "sha256": "7edf5cc53702c3bbffbc9a92417741cc921696873b34581325a1d0f5bcf107c0"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/consumer-rules.pro",
+      "sha256": "c39598c77329503b68312ae143e5caa78d0ff41784361c097c55cd65bed8e3f0"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-metadata",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/feature-registry.json",
+      "sha256": "180eb147afbbada72c4a22a7f0e2feb7efcf7cbe7b44c5dc1d506c49edacd5ea"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/generated/jni/plugin_bindings.cpp",
+      "sha256": "3e8c3773b20598cf35001980bb79beaf807ee9d2ef28dd4cf979771b10597058"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/include/supernote/conversion.hpp",
+      "sha256": "9e99f8d1bbecc556be164377260667fcb4876095e019c386e1eac3038a13121b"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/include/supernote/cpp_objects.hpp",
+      "sha256": "70b78d1a4a4ef0073a686866b2c708a5c47e2b96ed1db808b786eda834c1bdfd"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/include/supernote/runtime.hpp",
+      "sha256": "94e4ddccf385357ca30b151fdb4433b2687a28ba280343ba76785ab960f07e18"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-metadata",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/inputs/7e680f69f87879eb/cpp-semantic.json",
+      "sha256": "850a342c9aa9e154ed80fad2d26fe2c430ec47dce99408e98660a83614375479"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-metadata",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/ownership.json",
+      "sha256": "0df88604ee1daaf2f3ac527f5a19756be20e63b8e9eeeb11990027af93828c5e"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "gradle-integration",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/processor/build.gradle",
+      "sha256": "013898dfc855038c2de784bfdfbdcd735e9c72fb6286cdee70af9d48174c003e"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/processor/src/main/kotlin/supernote/generated/processor/SupernoteModuleProcessor.kt",
+      "sha256": "36df53e1f27b45fb031167959891a453e37ffeeb95257fc4f13aeb0fddd560c4"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/processor/src/main/resources/META-INF/services/com.google.devtools.ksp.processing.SymbolProcessorProvider",
+      "sha256": "852a3088286ebf2a9341371bd174503e212ad938cd735c34943406832e3a1cd6"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/feature_registry.cpp",
+      "sha256": "095101f584c792a0362a0b7c1257d96aa66d7fd999f69280434a7cedc6999f3c"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/feature_registry.hpp",
+      "sha256": "645b5e2bbbd0e7598716c51e9ff6532223549416252652a946d82c25c3dda76a"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/main/java/supernote/generated/runtime/SupernoteConversionBudget.kt",
+      "sha256": "573e7afef84ce5278268a182db6d3057f39fbce25290c46017282221f2fc02b9"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/main/java/supernote/generated/runtime/SupernoteCoroutineBridge.kt",
+      "sha256": "0891ad31442c6481bc8b3206e96a3051d465638c1459507857714b4869521fd7"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "runtime-support",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/main/java/supernote/generated/runtime/SupernoteModule.kt",
+      "sha256": "a118891da34fd501aed0b4afe287e84de5c0d4e2b4e4f347e503d2678d851f36"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/runtime_bootstrap.cpp",
+      "sha256": "33ed2322bb65abec6b8dc92b0e535dfc65ea1546b574b130259d28ac04a2c273"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/runtime_registration_bridge.c",
+      "sha256": "8a8db1de18b542370c56271cc578badabc3258fc6df3ed740a521f0d32d2477b"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/runtime_services.cpp",
+      "sha256": "17aea44994aa5e382d15158e3ca36bc955882b4b9fb8874557c76f8ddddf6ef1"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "shared-native-runtime",
+      "owner": "shared-runtime",
+      "path": "android/.supernote-module/runtime/src/runtime_services.hpp",
+      "sha256": "93ddec44c6319fe4401761e0fc3785a65e838ea3a98a60c030372e33ab0c1947"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "generated-readme",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/README.md",
+      "sha256": "6a9269d81fe6f090b65ae7b7c5e2f940b293fbbd82cc9eb5ea331a3164bc414d"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-cmake-integration",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/CMakeLists.txt",
+      "sha256": "1003ff7984940d54b244ca1f7d4541ee17f3741ccf7cb35845196e38321540e0"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-registration-metadata",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/conversion.json",
+      "sha256": "ffe2a61198314eded0228e0d2c97bc6b48ba38c0ce10639075b4e53f2bf72dd5"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-native-binding",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/feature.cpp",
+      "sha256": "f340520428e86221b826e9c30b689eb547d1e65435716149a054ce4ce9831119"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-native-binding",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/internal.cpp",
+      "sha256": "18d5c2b82527ecb754abd54445500b76395779ce9f0ff5e5366c03ee9d92096b"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-native-binding",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/internal.hpp",
+      "sha256": "52ae2fc070bcc0fd0327f20aeb0f807fa76aad248ff9689fe82b34fd26216b30"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-jvm-registration",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/jvm/JvmRegistration.java",
+      "sha256": "8ee05b4ee99aba939d9aaab1e6c635cb5b3d4998c7a3f717429124c6d58e8d4e"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-jvm-adapter",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/jvm/KspAdapters.kt",
+      "sha256": "2b5bcc43109a441e4b11969251cf9110282281f6523a6eeceddb01cb2d30c8e8"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-native-binding",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/jvm_feature.cpp",
+      "sha256": "33a93c663e497bdb23322e73e32417715827b48d7e04b614af413807c5fbde82"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-native-binding",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/package_registration.cpp",
+      "sha256": "8f74850749723976fb12ef46e56be02426a450e5f2e3f05c2b8642aa17aeb793"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-native-binding",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/package_registration.hpp",
+      "sha256": "72790f5bbf3546698d22381356941f0920c7ff0b6c429b8c91706db151a97129"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-registration-metadata",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/registration.json",
+      "sha256": "7c5354e622580a6e79e526ab24badb9384ac30505c6858675811114edeee9756"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-registration-metadata",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/android/semantic.json",
+      "sha256": "850a342c9aa9e154ed80fad2d26fe2c430ec47dce99408e98660a83614375479"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "typescript-declarations",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/index.d.ts",
+      "sha256": "2357b1664823aec77758c06ebe98f6ffc4e43b7d31ad51baa0dd90c59a107176"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "javascript-wrapper",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/index.js",
+      "sha256": "d8d268e5c6bb2ebd202f8014088a6ade605117d13757fe04db2debebda8d72fa"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "feature-generated-metadata",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/ownership.json",
+      "sha256": "a8409719e4db9338256d5a219a8e09d14a707d2efc1e1f3539f51bb32c8cf967"
+    },
+    {
+      "committed_source": true,
+      "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+      "kind": "package-distribution-metadata",
+      "owner": "feature:snfiletools",
+      "path": "local_modules/snfiletools/.supernote-generated/package-manifest.json",
+      "sha256": "0b224a06f2a484b9a7743415444fd46657e2116fae1c5363337b13a61a84256e"
+    }
+  ],
+  "features": [
+    {
+      "id": "supernote:feature:7e680f69f87879eb",
+      "package_name": "snfiletools",
+      "root": "local_modules/snfiletools",
+      "semantic_hash": "73ad56246fab7e6f75db1c5dd0b3890c2f0506a31acb87fcae96bbbe1aa4fb6a"
+    }
+  ],
+  "frontend_versions": {
+    "cpp": 1,
+    "jvm": 1
+  },
+  "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+  "generator_version": "0.1.3",
+  "plugin": {
+    "id": "file_test_2"
+  },
+  "schema_version": "2.0",
+  "wiring": []
+}

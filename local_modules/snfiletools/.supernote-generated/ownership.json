@@ -1,0 +1,27 @@
+{
+  "feature_id": "supernote:feature:7e680f69f87879eb",
+  "generated_files": [
+    ".supernote-generated/README.md",
+    ".supernote-generated/android/CMakeLists.txt",
+    ".supernote-generated/android/conversion.json",
+    ".supernote-generated/android/feature.cpp",
+    ".supernote-generated/android/internal.cpp",
+    ".supernote-generated/android/internal.hpp",
+    ".supernote-generated/android/jvm/JvmRegistration.java",
+    ".supernote-generated/android/jvm/KspAdapters.kt",
+    ".supernote-generated/android/jvm_feature.cpp",
+    ".supernote-generated/android/package_registration.cpp",
+    ".supernote-generated/android/package_registration.hpp",
+    ".supernote-generated/android/registration.json",
+    ".supernote-generated/android/semantic.json",
+    ".supernote-generated/index.d.ts",
+    ".supernote-generated/index.js",
+    ".supernote-generated/ownership.json",
+    ".supernote-generated/package-manifest.json"
+  ],
+  "generation_id": "e94ca79b8c07d8bd82bb98ae5685796ab3918514042edb168ee9bd85739089bc",
+  "generator_version": "0.1.3",
+  "kind": "supernote-feature-generated-ownership",
+  "package_name": "snfiletools",
+  "schema_version": "1.0"
+}

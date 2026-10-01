@@ -1,0 +1,5 @@
+{
+  "javaHome": "/path/to/jdk-17",
+  "androidSdk": "/path/to/Android/Sdk",
+  "adb": "/path/to/Android/Sdk/platform-tools/adb"
+}

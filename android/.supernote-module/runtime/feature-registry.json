@@ -1,0 +1,849 @@
+{
+  "component_name": "sn_supernote_runtime_b1ee3d0df6ed",
+  "features": [
+    {
+      "android_namespace": "com.ziv.snfiletools",
+      "feature_id": "supernote:feature:7e680f69f87879eb",
+      "implementation_roots": {
+        "jvm": "android/src/main/java",
+        "native": "android/src/main/cpp"
+      },
+      "npm_name": "snfiletools",
+      "public_name": "Snfiletools",
+      "requirements": {
+        "asynchronous": true,
+        "implementation_families": [
+          "native",
+          "jvm"
+        ],
+        "javascript_public": true
+      },
+      "semantic_digest": "6b63fa4ea3a1b94a7ae27487d480cd6c272547840f7b738539a8a15b101326ec",
+      "source_semantic_api": {
+        "classes": [],
+        "functions": [
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:bitmapMatches(std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "bitmapMatches",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "patternPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "bool"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:bitmapMatches(std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 107,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:bitmapMatches(std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:copyPageTotalPath(std::string,std::string,std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "copyPageTotalPath",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "sourcePath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "sourcePageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:copyPageTotalPath(std::string,std::string,std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 129,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:copyPageTotalPath(std::string,std::string,std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:getSize(std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "getSize",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "int64"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:getSize(std::string)",
+              "language": "cpp",
+              "line": 56,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:getSize(std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:greet(std::string)",
+            "execution": "sync",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "greet",
+            "parameters": [
+              {
+                "name": "name",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:greet(std::string)",
+              "language": "cpp",
+              "line": 51,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:greet(std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:restoreTestNote(std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "restoreTestNote",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "void"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:restoreTestNote(std::string,std::string)",
+              "language": "cpp",
+              "line": 84,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:restoreTestNote(std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:setJournalDirectory(std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "setJournalDirectory",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "void"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:setJournalDirectory(std::string)",
+              "language": "cpp",
+              "line": 63,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:setJournalDirectory(std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testBitmapReplace(std::string,std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testBitmapReplace",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "patternPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testBitmapReplace(std::string,std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 99,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testBitmapReplace(std::string,std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testBitmapUnchanged(std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testBitmapUnchanged",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "referencePath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "bool"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testBitmapUnchanged(std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 139,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testBitmapUnchanged(std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testMetadataEditAndRestore(std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testMetadataEditAndRestore",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testMetadataEditAndRestore(std::string,std::string)",
+              "language": "cpp",
+              "line": 70,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testMetadataEditAndRestore(std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testReopenSnapshot(std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testReopenSnapshot",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "snapshotPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "void"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testReopenSnapshot(std::string,std::string)",
+              "language": "cpp",
+              "line": 114,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testReopenSnapshot(std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathCopy(std::string,std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testTotalPathCopy",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "sourcePath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathCopy(std::string,std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 121,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathCopy(std::string,std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathEdit(std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testTotalPathEdit",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathEdit(std::string,std::string)",
+              "language": "cpp",
+              "line": 77,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathEdit(std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathPaste(std::string,std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testTotalPathPaste",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "sourcePath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "backupPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathPaste(std::string,std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 91,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathPaste(std::string,std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:cpp:android/src/main/cpp/feature.cpp:testTotalPathUnchanged(std::string,std::string,std::string)",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "testTotalPathUnchanged",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "referencePath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "pageKey",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "bool"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathUnchanged(std::string,std::string,std::string)",
+              "language": "cpp",
+              "line": 146,
+              "path": "android/src/main/cpp/feature.cpp"
+            },
+            "source_declaration_id": "cpp:android/src/main/cpp/feature.cpp:testTotalPathUnchanged(std::string,std::string,std::string)"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.ExportBitmap#encodeExportedBitmap(Ljava/lang/String;Ljava/lang/String;IILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "encodeExportedBitmap",
+            "parameters": [
+              {
+                "name": "pngPath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "rlePath",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "width",
+                "type": {
+                  "kind": "scalar",
+                  "name": "int32"
+                }
+              },
+              {
+                "name": "height",
+                "type": {
+                  "kind": "scalar",
+                  "name": "int32"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.ExportBitmap#encodeExportedBitmap(Ljava/lang/String;Ljava/lang/String;IILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+              "language": "kotlin",
+              "line": 17,
+              "path": "com/ziv/snfiletools/ExportBitmap.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.ExportBitmap#encodeExportedBitmap(Ljava/lang/String;Ljava/lang/String;IILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.FeatureApiKt#greetFromJvm(Ljava/lang/String;)Ljava/lang/String;",
+            "execution": "sync",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "greetFromJvm",
+            "parameters": [
+              {
+                "name": "name",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.FeatureApiKt#greetFromJvm(Ljava/lang/String;)Ljava/lang/String;",
+              "language": "kotlin",
+              "line": 6,
+              "path": "com/ziv/snfiletools/FeatureApi.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.FeatureApiKt#greetFromJvm(Ljava/lang/String;)Ljava/lang/String;"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.NoteRefresh#clearNoteFileCache(Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "clearNoteFileCache",
+            "parameters": [
+              {
+                "name": "path",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "scalar",
+                  "name": "int32"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "bool"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.NoteRefresh#clearNoteFileCache(Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+              "language": "kotlin",
+              "line": 33,
+              "path": "com/ziv/snfiletools/NoteRefresh.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.NoteRefresh#clearNoteFileCache(Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.NoteRefresh#requestNoteRedraw(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "requestNoteRedraw",
+            "parameters": [],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.NoteRefresh#requestNoteRedraw(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+              "language": "kotlin",
+              "line": 106,
+              "path": "com/ziv/snfiletools/NoteRefresh.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.NoteRefresh#requestNoteRedraw(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.NoteRefresh#waitForNoteRefresh(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "waitForNoteRefresh",
+            "parameters": [
+              {
+                "name": "milliseconds",
+                "type": {
+                  "kind": "scalar",
+                  "name": "int32"
+                }
+              }
+            ],
+            "result": {
+              "kind": "void"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.NoteRefresh#waitForNoteRefresh(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+              "language": "kotlin",
+              "line": 24,
+              "path": "com/ziv/snfiletools/NoteRefresh.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.NoteRefresh#waitForNoteRefresh(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.TestStateKt#getTotalPathTestState(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "getTotalPathTestState",
+            "parameters": [
+              {
+                "name": "pluginDirectory",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "scalar",
+              "name": "string"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.TestStateKt#getTotalPathTestState(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+              "language": "kotlin",
+              "line": 11,
+              "path": "com/ziv/snfiletools/TestState.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.TestStateKt#getTotalPathTestState(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+          },
+          {
+            "binding_id": "supernote:binding:jvm:com.ziv.snfiletools.TestStateKt#setTotalPathTestState(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+            "execution": "async",
+            "javascript_public": true,
+            "kind": "function",
+            "member_scope": "top_level",
+            "name": "setTotalPathTestState",
+            "parameters": [
+              {
+                "name": "pluginDirectory",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              },
+              {
+                "name": "state",
+                "type": {
+                  "kind": "scalar",
+                  "name": "string"
+                }
+              }
+            ],
+            "result": {
+              "kind": "void"
+            },
+            "routable": true,
+            "source": {
+              "column": 1,
+              "declaration_id": "jvm:com.ziv.snfiletools.TestStateKt#setTotalPathTestState(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+              "language": "kotlin",
+              "line": 18,
+              "path": "com/ziv/snfiletools/TestState.kt"
+            },
+            "source_declaration_id": "jvm:com.ziv.snfiletools.TestStateKt#setTotalPathTestState(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+          }
+        ],
+        "kind": "supernote_module_semantic_manifest",
+        "schema_version": "1.0",
+        "types": []
+      }
+    }
+  ],
+  "generator_version": "0.1.3",
+  "kind": "supernote_module_plugin_runtime_registry",
+  "plugin_id": "file_test_2",
+  "schema_version": "1.0"
+}

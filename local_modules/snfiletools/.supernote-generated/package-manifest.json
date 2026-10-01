@@ -1,0 +1,105 @@
+{
+  "androidNamespace": "com.ziv.snfiletools",
+  "featureId": "supernote:feature:7e680f69f87879eb",
+  "kind": "supernote_module_distribution",
+  "packageName": "snfiletools",
+  "packageVersion": "0.1.0",
+  "payload": [
+    {
+      "path": ".supernote-generated/README.md",
+      "sha256": "6a9269d81fe6f090b65ae7b7c5e2f940b293fbbd82cc9eb5ea331a3164bc414d"
+    },
+    {
+      "path": ".supernote-generated/android/CMakeLists.txt",
+      "sha256": "1003ff7984940d54b244ca1f7d4541ee17f3741ccf7cb35845196e38321540e0"
+    },
+    {
+      "path": ".supernote-generated/android/conversion.json",
+      "sha256": "ffe2a61198314eded0228e0d2c97bc6b48ba38c0ce10639075b4e53f2bf72dd5"
+    },
+    {
+      "path": ".supernote-generated/android/feature.cpp",
+      "sha256": "f340520428e86221b826e9c30b689eb547d1e65435716149a054ce4ce9831119"
+    },
+    {
+      "path": ".supernote-generated/android/internal.cpp",
+      "sha256": "18d5c2b82527ecb754abd54445500b76395779ce9f0ff5e5366c03ee9d92096b"
+    },
+    {
+      "path": ".supernote-generated/android/internal.hpp",
+      "sha256": "52ae2fc070bcc0fd0327f20aeb0f807fa76aad248ff9689fe82b34fd26216b30"
+    },
+    {
+      "path": ".supernote-generated/android/jvm/JvmRegistration.java",
+      "sha256": "8ee05b4ee99aba939d9aaab1e6c635cb5b3d4998c7a3f717429124c6d58e8d4e"
+    },
+    {
+      "path": ".supernote-generated/android/jvm/KspAdapters.kt",
+      "sha256": "2b5bcc43109a441e4b11969251cf9110282281f6523a6eeceddb01cb2d30c8e8"
+    },
+    {
+      "path": ".supernote-generated/android/jvm_feature.cpp",
+      "sha256": "33a93c663e497bdb23322e73e32417715827b48d7e04b614af413807c5fbde82"
+    },
+    {
+      "path": ".supernote-generated/android/package_registration.cpp",
+      "sha256": "8f74850749723976fb12ef46e56be02426a450e5f2e3f05c2b8642aa17aeb793"
+    },
+    {
+      "path": ".supernote-generated/android/package_registration.hpp",
+      "sha256": "72790f5bbf3546698d22381356941f0920c7ff0b6c429b8c91706db151a97129"
+    },
+    {
+      "path": ".supernote-generated/android/registration.json",
+      "sha256": "7c5354e622580a6e79e526ab24badb9384ac30505c6858675811114edeee9756"
+    },
+    {
+      "path": ".supernote-generated/android/semantic.json",
+      "sha256": "850a342c9aa9e154ed80fad2d26fe2c430ec47dce99408e98660a83614375479"
+    },
+    {
+      "path": ".supernote-generated/index.d.ts",
+      "sha256": "2357b1664823aec77758c06ebe98f6ffc4e43b7d31ad51baa0dd90c59a107176"
+    },
+    {
+      "path": ".supernote-generated/index.js",
+      "sha256": "d8d268e5c6bb2ebd202f8014088a6ade605117d13757fe04db2debebda8d72fa"
+    },
+    {
+      "path": ".supernote-module.json",
+      "sha256": "1b439cf784e021a4e41fc5f9504a2d8d237d6ea7c69b6bfbaf41d7c1172f4c4c"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "a0bd89fa3ea2d8f828fae0fcb0ac3dd8055ec213116503ab8b932628e160590c"
+    },
+    {
+      "path": "android/src/main/cpp/feature.cpp",
+      "sha256": "e30843b614639aabf2eb0706117fdf6b7aca83eef30e3df3fb11372c92951a91"
+    },
+    {
+      "path": "android/src/main/java/com/ziv/snfiletools/ExportBitmap.kt",
+      "sha256": "558641a021ca0fa21d829f73a3675c5da6fb222ca4bb2b126ef62a738eccb29c"
+    },
+    {
+      "path": "android/src/main/java/com/ziv/snfiletools/FeatureApi.kt",
+      "sha256": "eb434933015f0e69f0b3e7c4b00a0bc6a8e548f56eb497948e47a5c67c4bee5c"
+    },
+    {
+      "path": "android/src/main/java/com/ziv/snfiletools/NoteRefresh.kt",
+      "sha256": "830dcd8ca924f8493e97ba117fa5358124273447f5ddaa821427a2894296cd86"
+    },
+    {
+      "path": "android/src/main/java/com/ziv/snfiletools/TestState.kt",
+      "sha256": "81dacee723c29f1adf2b90b3a8e8da10be8583b698d6e02ee4adc52915e063e5"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b8e2a7726290729a6c33c2e7580782d668c0ebd71777ca277be3446164826a0d"
+    }
+  ],
+  "protocol": "2.0",
+  "publicName": "Snfiletools",
+  "registration": ".supernote-generated/android/registration.json",
+  "schemaVersion": "2.0"
+}
